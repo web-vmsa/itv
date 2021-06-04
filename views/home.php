@@ -55,7 +55,7 @@
 			</a>
 		</nav>
 
-		<div class="open-menu-mobile">
+		<div class="open-menu--mobile">
 			<img src="<?php echo BASE_URL; ?>assets/imgs/menu.svg" alt="Menu icon">
 		</div>
 	</header>
@@ -64,10 +64,10 @@
 	<main class="conteudo-principal">
 		<img src="https://img3.goodfon.com/wallpaper/nbig/7/60/manaus-braziliya-amazonas.jpg" alt="Imagem de fundo">
 
-		<h2>INTITUTO TRANSFORMANDO VIDAS</h2>
+		<h2>INSTITUTO TRANSFORMANDO VIDAS</h2>
 		<h1>FAÇA PARTE DESTA CAUSA, FAÇA UMA DOAÇÃO</h1>
 
-		<div class="calls-to-action">
+		<div class="calls-to--action">
 			<a href="<?php echo BASE_URL; ?>">ORANDO</a>
 			<a href="<?php echo BASE_URL; ?>">VINDO</a>
 			<a href="<?php echo BASE_URL; ?>">DOANDO</a>
@@ -77,6 +77,70 @@
 			<img alt="Desce icon" src="<?php echo BASE_URL; ?>assets/imgs/seta-arrow-gif-1.gif" >
 		</div>
 	</main>
+
+	<!-- Cards -->
+	<nav class="cards">
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://esbrasil.com.br/wp-content/uploads/2017/10/131017-Artesanato-de-Barro-Foto-Sagrilo.jpg" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>PROJETOS</h3>
+					<p>CONHEÇA TODOS OS PROJETOS DO INSTITUTO.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://neilpatel.com/wp-content/uploads/2017/03/emailsubscribers.jpg" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>INFORMATIVO</h3>
+					<p>LEIA O BOLETIM DE CADA MÊS DO INSTITUTO.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://media-manager.noticiasaominuto.com/1920/naom_584547ff916d5.jpg" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>VOLUNTÁRIOS</h3>
+					<p>CONHEÇA NOSSA EQUIPE DE VOLUNTÁRIOS.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://www.hopeservices.org/wp-content/uploads/SEC-HERO-donations.jpg" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>DOE</h3>
+					<p>FAÇA PARTE A APOIE A NOSSA CAUSA.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://cdn.diferenca.com/imagens/pessoa-fisica-e-pessoa-juridica-og.jpg" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>APOIADORES (FÍSICOS)</h3>
+					<p>VEJA QUEM JÁ AJUDOU A INSTITUIÇÃO.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card">
+				<div class="card-fundo"></div>
+				<img src="https://www.dataa.com.br/wp-content/uploads/2018/10/empresas-01.png" alt="Imagem do card">
+				<div class="card-texto">
+					<h2>APOIADORES (JURÍDICOS)</h3>
+					<p>VEJA AS EMPRESAS QUE JÁ AJUDARAM.</p>
+				</div>
+			</div>
+		</a>
+	</nav>
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-3.6.0.min.js"></script>
