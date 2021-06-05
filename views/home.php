@@ -142,6 +142,16 @@
 		</a>
 	</nav>
 
+	<!-- Apresentação -->
+	<section class="apresentacao">
+		<iframe src="https://www.youtube.com/embed/7Vxmmq8tkf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="apresentacao-texto">
+			<h2>CONHEÇA O ITVIDAS</h2>
+			<p>Assista o vídeo e conheça mais sobre o nosso Instituto e sobre o nosso presidente Paulo Arruda.</p>
+			<a href="">HISTÓRIAS DE FÉ</a>
+		</div>
+	</section>
+
 	<!-- Scripts -->
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
