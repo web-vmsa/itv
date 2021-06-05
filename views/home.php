@@ -152,6 +152,71 @@
 		</div>
 	</section>
 
+	<!-- Newsletter -->
+	<div class="newsletter">
+		<h2>ASSINE A NEWSLETTER</h2>
+		<p>Assine a newsletter para receber todas as novidades do instituto diretamente no seu e-mail.</p>
+
+		<form method="POST">
+			<input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+			<button type="submit">ASSINAR >>></button>
+		</form>
+
+		<div class="mensagem">
+			<p>* Verifique o seu e-mail para concluir o cadastro!</p>
+		</div>
+	</div>
+
+	<!-- Rodapé -->
+	<footer class="rodape">
+		<div class="rodape-top">
+			<div class="rodape-top--item">
+				<p>Nossa história</p>
+				<a href="">Quem somos</a>
+				<a href="">Nossa história</a>
+				<a href="">Diretoria</a>
+			</div>
+			<div class="rodape-top--item">
+				<p>Eventos</p>
+				<a href="">Segunda turma</a>
+				<a href="">Evento da oração</a>
+				<a href="">UEA e ITV</a>
+			</div>
+			<div class="rodape-top--item">
+				<p>Projetos</p>
+				<a href="">Projeto Atelie</a>
+				<a href="">Pimeiro emprego</a>
+				<a href="">Conte uma história</a>
+			</div>
+			<div class="rodape-top--item">
+				<p>Localização</p>
+				<a href="">Complexo Eduardo Effa</a>
+				<a href="">Complexo Pr. Andrew Love</a>
+			</div>
+			<div class="rodape-top--item">
+				<p>Contato</p>
+				<a href="">itvmanaus@gmail.com</a>
+				<a href="">(92) 98136-0011</a>
+				<a href="">(92) 98802-9297</a>
+			</div>
+			<div class="logotipo-rodape">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/Logo_ITV-removebg-preview.svg">
+			</div>
+		</div>
+		<div class="rodape-bottom">
+			<div class="rodape-bottom--left">
+				<p>@2020 | ITVidas - Todos os direitos reservados</p>
+				<a href="">Política de privacidade</a>
+			</div>
+			<div class="rodape-bottom--right">
+				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-14.svg" alt="Instagram"></a>
+				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-4.svg" alt="Facebook"></a>
+				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-9.svg" alt="Youtube"></a>
+				<a href=""><img style="transform: rotate(-90deg);" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-27.svg" alt="Top icom"></a>
+			</div>
+		</div>
+	</footer>
+
 	<!-- Scripts -->
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
