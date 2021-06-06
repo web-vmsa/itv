@@ -31,6 +31,51 @@
 	<link rel="icon" href="<?php echo BASE_URL; ?>assets/imgs/favicon.png" type="image/x-icon" />
 </head>
 <body>
+	<!-- Menu lateral -->
+	<aside class="menu-lateral">
+		<div class="menu-lateral--top">
+			<div class="menu-lateral--top-logotipo"><img src="<?php echo BASE_URL; ?>assets/imgs/Logo_ITV-removebg-preview.svg" alt="Logotipo"></div>
+			<div class="menu-lateral--top-close"><img src="<?php echo BASE_URL; ?>assets/imgs/close.svg"></div>
+		</div>
+		<nav class="menu-lateral--menu">
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>sobre">QUEM SOMOS</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<!-- Submenu 
+			<div class="menu-lateral--submenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>Quem somos</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Nossa história</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Diretoria</p></div></a>
+			</div>
+			-->
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>projetos">PROJETOS</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>localizacao">LOCALIZAÇÃO</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>contato">CONTATO</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>galeria">GALERIA</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<div class="menu-lateral--menu-item">
+				<a href="<?php echo BASE_URL; ?>notaFiscal">NOTA FISCAL AMAZONENSE</a>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+		</nav>
+		<div class="menu-lateral--footer">
+			<a href="">FAZER UMA DOAÇÃO</a>
+			<p>@2020 | ITVidas - Todos os direitos reservados </p>
+		</div>
+	</aside>
+
 	<!-- Topo -->
 	<header class="topo">
 		<div class="logotipo">
