@@ -31,6 +31,31 @@
 	<link rel="icon" href="<?php echo BASE_URL; ?>assets/imgs/favicon.png" type="image/x-icon" />
 </head>
 <body>
+	<!-- Menu da rolagem -->
+	<header class="menu-rolagem">
+		<div class="logotipo">
+			<a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/imgs/Logo_ITV-removebg-preview.svg" alt="Logotipo / ITV"></a>
+		</div>
+
+		<nav class="menu-rolagem--menu">
+			<a href="<?php echo BASE_URL; ?>sobre">
+				<div class="menu-rolagem--item">NOSSA HISTÓRIA</div>
+			</a>
+			<a href="<?php echo BASE_URL; ?>projetos">
+				<div class="menu-rolagem--item">PROJETOS</div>
+			</a>
+			<a href="<?php echo BASE_URL; ?>localizacao">
+				<div class="menu-rolagem--item">LOCALIZAÇÃO</div>
+			</a>
+			<a href="<?php echo BASE_URL; ?>contato">
+				<div class="menu-rolagem--item">CONTATO</div>
+			</a>
+			<a href="<?php echo BASE_URL; ?>galeria">
+				<div class="menu-rolagem--item">GALERIA</div>
+			</a>
+		</nav>
+	</header>
+
 	<!-- Menu lateral -->
 	<aside class="menu-lateral">
 		<div class="menu-lateral--top">
