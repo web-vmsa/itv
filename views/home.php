@@ -3,10 +3,10 @@
 <head>
 	<!-- Primary Meta Tags -->
 	<title>ITV — Instituto Transformando Vidas</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<meta name="title" content="ITV — Instituto Transformando Vidas">
 	<meta name="description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
@@ -54,6 +54,10 @@
 				<div class="menu-rolagem--item">GALERIA</div>
 			</a>
 		</nav>
+
+		<div class="open-menu--mobile">
+			<img src="<?php echo BASE_URL; ?>assets/imgs/menu.svg" alt="Menu icon">
+		</div>
 	</header>
 
 	<!-- Menu lateral -->
