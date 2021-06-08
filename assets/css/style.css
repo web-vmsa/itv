@@ -668,7 +668,7 @@ body {
 */
 
 /* <!-- 1024 pixels --> */
-@media screen and (max-width: 1024px) and (min-width: 865px) {
+@media screen and (max-width: 1024px) and (min-width: 760px) {
 
 	.topo {
 		flex-wrap: wrap;
@@ -699,6 +699,9 @@ body {
 		align-items: center;
 		margin-top: 40px;
 	}
+	.newsletter {
+		text-align: center;
+	}
 	.newsletter form {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -707,11 +710,183 @@ body {
 		width: 100%;
 	}
 	.newsletter button {
+		width: 30%;
 		margin-top: 20px;
 	}
 	.mensagem {
 		align-items: center;
 		justify-content: center;
+	}
+	.rodape-top--item {
+		margin-bottom: 50px;
+	}
+	.logotipo-rodape {
+		margin-top: 0;
+	}
+	.menu-rolagem {
+		justify-content: space-between;
+	}
+	.menu-rolagem .logotipo {
+		display: flex;
+	}
+	.menu-rolagem--menu {
+		display: none;
+	}
+	.menu-rolagem .open-menu--mobile {
+		display: flex;
+		margin-right: 50px;
+	}
+
+}
+
+/* <!-- 758 pixels --> */
+@media screen and (max-width: 758px) and (min-width: 673px) {
+
+	.topo {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu {
+		display: none;
+	}
+	.conteudo-principal {
+		text-align: center;
+	}
+	.calls-to--action {
+		margin-bottom: 156px;
+	}
+	.cards {
+		justify-content: center;
+	}
+	.card {
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+	.apresentacao {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.apresentacao-texto {
+		width: 100%;
+		text-align: center;
+		align-items: center;
+		margin-top: 40px;
+	}
+	.newsletter {
+		text-align: center;
+	}
+	.newsletter form {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.newsletter input {
+		width: 100%;
+	}
+	.newsletter button {
+		width: 30%;
+		margin-top: 20px;
+	}
+	.mensagem {
+		align-items: center;
+		justify-content: center;
+	}
+	.rodape-top--item {
+		margin-bottom: 50px;
+	}
+	.logotipo-rodape {
+		margin-top: 0;
+	}
+	.menu-rolagem {
+		justify-content: space-between;
+	}
+	.menu-rolagem .logotipo {
+		display: flex;
+	}
+	.menu-rolagem--menu {
+		display: none;
+	}
+	.menu-rolagem .open-menu--mobile {
+		display: flex;
+		margin-right: 50px;
+	}
+
+}
+
+/* <!-- 673 pixels --> */
+@media screen and (max-width: 670px) {
+
+	.topo {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu {
+		display: none;
+	}
+	.conteudo-principal {
+		text-align: center;
+	}
+	.calls-to--action {
+		width: 350px;
+		flex-wrap: wrap;
+		margin-bottom: 197px;
+		justify-content: center;
+	}
+	.calls-to--action a {
+		margin-bottom: 20px;
+	}
+	.desce {
+		margin-bottom: 29px;
+	}
+	.cards {
+		justify-content: center;
+	}
+	.card {
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+	.apresentacao {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.apresentacao-texto {
+		width: 100%;
+		text-align: center;
+		align-items: center;
+		margin-top: 40px;
+	}
+	.newsletter {
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.newsletter form {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.newsletter input {
+		width: 100%;
+	}
+	.newsletter button {
+		width: 30%;
+		margin-top: 20px;
+	}
+	.mensagem {
+		align-items: center;
+		justify-content: center;
+	}
+	.rodape-top {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.rodape-bottom {
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	.rodape-top--item {
 		margin-bottom: 50px;
