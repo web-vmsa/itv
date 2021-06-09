@@ -71,13 +71,13 @@
 				<a href="<?php echo BASE_URL; ?>sobre">QUEM SOMOS</a>
 				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
-			<!-- Submenu 
+			
 			<div class="menu-lateral--submenu">
 				<a href=""><div class="menu-lateral--submenu-item"><p>Quem somos</p></div></a>
 				<a href=""><div class="menu-lateral--submenu-item"><p>Nossa história</p></div></a>
 				<a href=""><div class="menu-lateral--submenu-item"><p>Diretoria</p></div></a>
 			</div>
-			-->
+			
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>projetos">PROJETOS</a>
 				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
@@ -227,7 +227,7 @@
 	</section>
 
 	<!-- Newsletter -->
-	<div class="newsletter">
+	<section class="newsletter">
 		<h2>ASSINE A NEWSLETTER</h2>
 		<p>Assine a newsletter para receber todas as novidades do instituto diretamente no seu e-mail.</p>
 
@@ -239,7 +239,7 @@
 		<div class="mensagem">
 			<p>* Verifique o seu e-mail para concluir o cadastro!</p>
 		</div>
-	</div>
+	</section>
 
 	<!-- Rodapé -->
 	<footer class="rodape">
