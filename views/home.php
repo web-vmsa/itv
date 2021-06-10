@@ -69,10 +69,9 @@
 		<nav class="menu-lateral--menu">
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>sobre">QUEM SOMOS</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="quemSomos" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
-			
-			<div class="menu-lateral--submenu">
+			<div class="menu-lateral--submenu quemSomos">
 				<a href=""><div class="menu-lateral--submenu-item"><p>Quem somos</p></div></a>
 				<a href=""><div class="menu-lateral--submenu-item"><p>Nossa história</p></div></a>
 				<a href=""><div class="menu-lateral--submenu-item"><p>Diretoria</p></div></a>
@@ -80,23 +79,48 @@
 			
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>projetos">PROJETOS</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="projetosMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
+			<div class="menu-lateral--submenu projetosMenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>Atelie Vida</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Primeiro emprego</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Artesanato</p></div></a>
+			</div>
+
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>localizacao">LOCALIZAÇÃO</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="localizacaoMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
+			<div class="menu-lateral--submenu localizacaoMenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>Complexo Eduardo Effa</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Complexo Pr. Andrew Love</p></div></a>
+			</div>
+
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>contato">CONTATO</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="contatoMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
+			<div class="menu-lateral--submenu contatoMenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>itvmanaus@gmail.com</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>(92) 98136-0011</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>(92) 98802-9297</p></div></a>
+			</div>
+
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>galeria">GALERIA</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="galeriaMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
+			<div class="menu-lateral--submenu galeriaMenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>Uploads recentes</p></div></a>
+				<a href=""><div class="menu-lateral--submenu-item"><p>Fotos dos projetos</p></div></a>
+			</div>
+
 			<div class="menu-lateral--menu-item">
 				<a href="<?php echo BASE_URL; ?>notaFiscal">NOTA FISCAL AMAZONENSE</a>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+				<img data-submenu="notafiscalMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
+			</div>
+			<div class="menu-lateral--submenu notafiscalMenu">
+				<a href=""><div class="menu-lateral--submenu-item"><p>Nota fiscal amazonense</p></div></a>
 			</div>
 		</nav>
 		<div class="menu-lateral--footer">
@@ -106,7 +130,7 @@
 	</aside>
 
 	<!-- Topo -->
-	<header class="topo">
+	<header class="topo" id="topo">
 		<div class="logotipo">
 			<a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/imgs/Logo_ITV-removebg-preview.svg" alt="Logotipo / ITV"></a>
 		</div>
@@ -153,7 +177,7 @@
 	</main>
 
 	<!-- Cards -->
-	<nav class="cards">
+	<nav class="cards" id="cards">
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
@@ -283,10 +307,10 @@
 				<a href="">Política de privacidade</a>
 			</div>
 			<div class="rodape-bottom--right">
-				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-14.svg" alt="Instagram"></a>
-				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-4.svg" alt="Facebook"></a>
-				<a href=""><img src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-9.svg" alt="Youtube"></a>
-				<a href=""><img style="transform: rotate(-90deg);" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-27.svg" alt="Top icom"></a>
+				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-14.svg" alt="Instagram"></a>
+				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-4.svg" alt="Facebook"></a>
+				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-9.svg" alt="Youtube"></a>
+				<a href="#topo"><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-ccc.svg" style="transform: rotate(-90deg);" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-27.svg" alt="Top icom"></a>
 			</div>
 		</div>
 	</footer>
