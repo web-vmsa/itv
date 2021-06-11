@@ -1,11 +1,31 @@
 $(document).ready(function(){
 
 /*
+* Raiz
+*
+* @raiz é a raiz do site
+*/
+var environment = "development";
+if (environment == "development") {
+	var raiz = 'http://localhost/itv/';
+} else {
+	var raiz = 'http://localhost/itv/';
+}
+
+/*
 * Hide
 * 
 * Esconde elementos ao carregar o site
 */
 $('.menu-lateral--submenu').hide();
+$(".mensagem").hide();
+
+/*
+* Variáveis gerais
+*
+* @dados são os dados do formulários
+*/
+let dados;
 
 /*
 * Scroll suave
@@ -44,18 +64,18 @@ $('.desce img').on('click', function(){
 */
 $('.open-menu--mobile img').on('click', function(){
 
-	$(".menu-lateral").css('opacity', 0);
-	$(".menu-lateral").css('display', 'flex');
+	$('.menu-lateral').css('opacity', 0);
+	$('.menu-lateral').css('display', 'flex');
 	setTimeout(()=>{
-		$(".menu-lateral").css('opacity', 1);
+		$('.menu-lateral').css('opacity', 1);
 	}, 200);
 
 });
 $('.menu-lateral--top-close img').on('click', function(){
 
-	$(".menu-lateral").css('opacity', 0);
+	$('.menu-lateral').css('opacity', 0);
 	setTimeout(()=>{
-		$(".menu-lateral").css('display', 'none');
+		$('.menu-lateral').css('display', 'none');
 	}, 200);
 
 });
@@ -114,5 +134,29 @@ function rolScroll(){
 	}
 }
 window.addEventListener('scroll', rolScroll);
+
+});
+
+/*
+* Validar formulário da newsletter
+* 
+* @dados recebe o e-mail do usuário
+*/
+$('#newsletter').submit(function(e){
+
+	e.preventDefault();
+
+	dados = $(this).serialize();
+
+	$.ajax({
+		type: 'POST',
+		url:'http://localhost/itv/ajax',
+		data: dados,
+		success:function(result){
+			$('#newsletter input').val('');
+			$('.mensagem p').html(result);
+			$('.mensagem').show();	
+		}
+	});
 
 });

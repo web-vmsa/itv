@@ -255,7 +255,7 @@
 		<h2>ASSINE A NEWSLETTER</h2>
 		<p>Assine a newsletter para receber todas as novidades do instituto diretamente no seu e-mail.</p>
 
-		<form method="POST">
+		<form method="POST" id="newsletter">
 			<input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
 			<button type="submit">ASSINAR >>></button>
 		</form>
