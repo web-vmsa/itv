@@ -14,4 +14,16 @@ class homeController extends controller {
 
 	}
 
+	public function newsletter($email, $chave){
+
+		# code ...
+		$dados = array(
+			'email' => $email,
+			'chave' => $chave
+		);
+
+		$this->loadView('newsletter', $dados);
+
+	}
+
 }

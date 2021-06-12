@@ -10,17 +10,29 @@ class ajaxController extends controller {
 	*/
 	public function index(){
 
-		# code...
 		$dados = array();
 
 		if (!empty($_POST['email'])) {
 			
 			$email = htmlspecialchars($_POST['email']);
+			$chave = md5($email);
+			$status = 0;
 
-			if ($email == 'bete-livia@hotmail.com') {
+			$get = new Newsletter();
+			$get->email = $email;
+			$getResult = $get->get();
+
+			if ($getResult == true) {
 				$msg = "* Este e-mail já está cadastrado!";
 				$dados['resultado'] = $msg;
-			} else {
+			} else {	
+
+				$set = new Newsletter();
+				$set->email = $email;
+				$set->chave = $chave;
+				$set->status = $status;
+				$set->set();
+
 				$msg = "* Por favor, verifique seu e-mail para concluir o cadastro!";
 				$dados['resultado'] = $msg;
 			}
