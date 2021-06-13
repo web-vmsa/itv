@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<!-- Primary Meta Tags -->
 	<title>ITV — Instituto Transformando Vidas</title>
@@ -12,14 +12,14 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="<?php echo BASE_URL; ?>">
 	<meta property="og:title" content="ITV — Instituto Transformando Vidas">
-	<meta property="og:description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
+	<meta property="og:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="og:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="<?php echo BASE_URL; ?>">
 	<meta property="twitter:title" content="ITV — Instituto Transformando Vidas">
-	<meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+	<meta property="twitter:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Stylesheets -->
@@ -101,9 +101,9 @@
 				<img data-submenu="contatoMenu" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
 			<div class="menu-lateral--submenu contatoMenu">
-				<a href=""><div class="menu-lateral--submenu-item"><p>itvmanaus@gmail.com</p></div></a>
-				<a href=""><div class="menu-lateral--submenu-item"><p>(92) 98136-0011</p></div></a>
-				<a href=""><div class="menu-lateral--submenu-item"><p>(92) 98802-9297</p></div></a>
+				<a href="mailto:itvmanaus@gmail.com"><div class="menu-lateral--submenu-item"><p>itvmanaus@gmail.com</p></div></a>
+				<a href="https://api.whatsapp.com/send?phone=92981360011"><div class="menu-lateral--submenu-item"><p>(92) 98136-0011</p></div></a>
+				<a href="https://api.whatsapp.com/send?phone=92988029297"><div class="menu-lateral--submenu-item"><p>(92) 98802-9297</p></div></a>
 			</div>
 
 			<div class="menu-lateral--menu-item">
@@ -293,9 +293,9 @@
 			</div>
 			<div class="rodape-top--item">
 				<p>Contato</p>
-				<a href="">itvmanaus@gmail.com</a>
-				<a href="">(92) 98136-0011</a>
-				<a href="">(92) 98802-9297</a>
+				<a href="mailto:itvmanaus@gmail.com">itvmanaus@gmail.com</a>
+				<a href="https://api.whatsapp.com/send?phone=92981360011">(92) 98136-0011</a>
+				<a href="https://api.whatsapp.com/send?phone=92988029297">(92) 98802-9297</a>
 			</div>
 			<div class="logotipo-rodape">
 				<img src="<?php echo BASE_URL; ?>assets/imgs/Logo_ITV-removebg-preview.svg">
@@ -307,9 +307,9 @@
 				<a href="">Política de privacidade</a>
 			</div>
 			<div class="rodape-bottom--right">
-				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-14.svg" alt="Instagram"></a>
-				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-4.svg" alt="Facebook"></a>
-				<a href=""><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-9.svg" alt="Youtube"></a>
+				<a href="https://www.instagram.com/itvidas/"><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-instagram-14.svg" alt="Instagram"></a>
+				<a href="https://pt-br.facebook.com/itvmanaus"><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-facebook-4.svg" alt="Facebook"></a>
+				<a href="https://www.youtube.com/channel/UCGlD8Qx5uyTyA4ZhqtRDmuA"><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-ccc.svg" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-youtube-9.svg" alt="Youtube"></a>
 				<a href="#topo"><img data-img="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-ccc.svg" style="transform: rotate(-90deg);" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-27.svg" alt="Top icom"></a>
 			</div>
 		</div>

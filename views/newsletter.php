@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<!-- Primary Meta Tags -->
 	<title>ITV — Instituto Transformando Vidas</title>
 	<meta charset="utf-8">
 	<meta name="title" content="ITV — Instituto Transformando Vidas">
-	<meta name="description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
+	<meta name="description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="<?php echo BASE_URL; ?>">
 	<meta property="og:title" content="ITV — Instituto Transformando Vidas">
-	<meta property="og:description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
+	<meta property="og:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="og:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="<?php echo BASE_URL; ?>">
 	<meta property="twitter:title" content="ITV — Instituto Transformando Vidas">
-	<meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!">
+	<meta property="twitter:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Stylesheets -->
