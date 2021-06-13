@@ -24,12 +24,13 @@ body {
 	background-color: rgb(243, 46, 52, 55%);
 	transition: all ease .2s;
 }
-.menu-rolagem .open-menu--mobile {
-	display: none;
-}
 .menu-rolagem .logotipo {
 	height: 80px;
 	margin-left: 50px;
+}
+.menu-rolagem .open-menu--mobile {
+	margin-right: 50px;
+	height: 80px;
 }
 .menu-rolagem .logotipo img {
 	width: 100px;
@@ -41,7 +42,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-right: 50px;
+	margin-left: 90px;
+	margin-right: 90px;
 }
 .menu-rolagem--item {
 	width: 160px;
