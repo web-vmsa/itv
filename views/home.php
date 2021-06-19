@@ -242,7 +242,7 @@
 
 	<!-- Apresentação -->
 	<section class="apresentacao">
-		<iframe src="https://www.youtube.com/embed/7Vxmmq8tkf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe src="https://www.youtube.com/embed/T2b2rkSAPPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<div class="apresentacao-texto">
 			<h2>CONHEÇA O ITVIDAS</h2>
 			<p>Assista o vídeo e conheça mais sobre o nosso Instituto e sobre o nosso presidente Paulo Arruda.</p>
