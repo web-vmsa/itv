@@ -181,7 +181,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://esbrasil.com.br/wp-content/uploads/2017/10/131017-Artesanato-de-Barro-Foto-Sagrilo.jpg" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card--projetos.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>PROJETOS</h3>
 					<p>CONHEÇA TODOS OS PROJETOS DO INSTITUTO.</p>
@@ -191,7 +191,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://neilpatel.com/wp-content/uploads/2017/03/emailsubscribers.jpg" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card--informativo.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>INFORMATIVO</h3>
 					<p>LEIA O BOLETIM DE CADA MÊS DO INSTITUTO.</p>
@@ -201,7 +201,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://media-manager.noticiasaominuto.com/1920/naom_584547ff916d5.jpg" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card--voluntarios.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>VOLUNTÁRIOS</h3>
 					<p>CONHEÇA NOSSA EQUIPE DE VOLUNTÁRIOS.</p>
@@ -211,7 +211,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://www.hopeservices.org/wp-content/uploads/SEC-HERO-donations.jpg" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card--doe.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>DOE</h3>
 					<p>FAÇA PARTE A APOIE A NOSSA CAUSA.</p>
@@ -221,7 +221,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://cdn.diferenca.com/imagens/pessoa-fisica-e-pessoa-juridica-og.jpg" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card-apoiadores--fisicos.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>APOIADORES (FÍSICOS)</h3>
 					<p>VEJA QUEM JÁ AJUDOU A INSTITUIÇÃO.</p>
@@ -231,7 +231,7 @@
 		<a href="">
 			<div class="card">
 				<div class="card-fundo"></div>
-				<img src="https://www.dataa.com.br/wp-content/uploads/2018/10/empresas-01.png" alt="Imagem do card">
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card-apoiadores--juridicos.png" alt="Imagem do card">
 				<div class="card-texto">
 					<h2>APOIADORES (JURÍDICOS)</h3>
 					<p>VEJA AS EMPRESAS QUE JÁ AJUDARAM.</p>
