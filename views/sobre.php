@@ -2,23 +2,23 @@
 <html lang="pt-br">
 <head>
 	<!-- Primary Meta Tags -->
-	<title>ITV — Instituto Transformando Vidas</title>
+	<title>ITV — Nossa história</title>
 	<meta charset="utf-8">
-	<meta name="title" content="ITV — Instituto Transformando Vidas">
+	<meta name="title" content="ITV — Nossa história">
 	<meta name="description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?php echo BASE_URL; ?>">
-	<meta property="og:title" content="ITV — Instituto Transformando Vidas">
+	<meta property="og:url" content="<?php echo BASE_URL; ?>sobre">
+	<meta property="og:title" content="ITV — Nossa história">
 	<meta property="og:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="og:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="<?php echo BASE_URL; ?>">
-	<meta property="twitter:title" content="ITV — Instituto Transformando Vidas">
+	<meta property="twitter:url" content="<?php echo BASE_URL; ?>sobre">
+	<meta property="twitter:title" content="ITV — Nossa história">
 	<meta property="twitter:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
@@ -39,7 +39,7 @@
 
 		<nav class="menu-rolagem--menu">
 			<a href="<?php echo BASE_URL; ?>sobre">
-				<div class="menu-rolagem--item">NOSSA HISTÓRIA</div>
+				<div class="menu-rolagem--item menu-rolagem--item-active">NOSSA HISTÓRIA</div>
 			</a>
 			<a href="<?php echo BASE_URL; ?>projetos">
 				<div class="menu-rolagem--item">PROJETOS</div>
@@ -68,7 +68,7 @@
 
 		<nav class="menu-rolagem--fixado-menu">
 			<a href="<?php echo BASE_URL; ?>sobre">
-				<div class="menu-rolagem--fixado-item">NOSSA HISTÓRIA</div>
+				<div class="menu-rolagem--fixado-item menu-rolagem--fixado-item--active">NOSSA HISTÓRIA</div>
 			</a>
 			<a href="<?php echo BASE_URL; ?>projetos">
 				<div class="menu-rolagem--fixado-item">PROJETOS</div>
@@ -158,20 +158,45 @@
 		</div>
 	</aside>
 
-	<!-- Erro 404 -->
-	<section class="erro" id="topo">
+	<!-- Topo descritivo da página -->
+	<div class="topo--descricao" id="topo">
+		<h2>QUEM SOMOS</h2>
+		<p>Navegue pelos cards abaixo para descobrir um pouco mais sobre nossas filosofias, história e diretoria.</p>
+	</div>
 
-		<img src="<?php echo BASE_URL; ?>assets/imgs/alert.svg" alt="Alert icon">
-
-		<h2>PÁGINA NÃO ENCONTRADA</h2>
-		<p>A PÁGINA QUE VOCÊ PROCURA NÃO EXISTE OU ESTÁ EM CONSTRUÇÃO.</p>
-
-		<div class="erro-botoes">
-			<a href="<?php echo BASE_URL; ?>">PÁGINA INICIAL</a>
-			<a href="<?php echo BASE_URL; ?>contato">CONTATO</a>
-		</div>
-
-	</section>
+	<!-- Cards -->
+	<nav class="cards--sobre">
+		<a href="">
+			<div class="card--sobre">
+				<div class="card-sobre--fundo"></div>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--quemSomos.png" alt="Imagem do card">
+				<div class="card-sobre--texto">
+					<h2>QUEM SOMOS</h3>
+					<p>CONHEÇA UM POUCO DAS NOSSAS FILOSOFIAS.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card--sobre">
+				<div class="card-sobre--fundo"></div>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--nossaHistoria.png" alt="Imagem do card">
+				<div class="card-sobre--texto">
+					<h2>NOSSA HISTÓRIA</h3>
+					<p>VEJA AS RAÍZES DO INSTUTO, LEIA A NOSSA HISTÓRIA.</p>
+				</div>
+			</div>
+		</a>
+		<a href="">
+			<div class="card--sobre">
+				<div class="card-sobre--fundo"></div>
+				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--diretoria.png" alt="Imagem do card">
+				<div class="card-sobre--texto">
+					<h2>DIRETORIA</h3>
+					<p>CONHEÇA NOSSA GESTÃO E EQUIPE DO INSTITUTO.</p>
+				</div>
+			</div>
+		</a>
+	</nav>
 
 	<!-- Rodapé -->
 	<footer class="rodape">

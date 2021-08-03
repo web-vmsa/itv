@@ -10,11 +10,11 @@ if (ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	define("BASE_URL", "http://localhost/itv/");
-	$config['dbname'] = 'itv';
+	define("BASE_URL", "https://itvmanaus.org/");
+	$config['dbname'] = 'itvman40_itvidas';
 	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
-	$config['dbpass'] = '';
+	$config['dbuser'] = 'itvman40_root';
+	$config['dbpass'] = 'jXlI7Tr$)Kk2';
 }
 
 global $db;

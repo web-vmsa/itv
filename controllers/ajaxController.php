@@ -33,6 +33,18 @@ class ajaxController extends controller {
 				$set->status = $status;
 				$set->set();
 
+				// Envia o e-mail de confirmação para o usuário
+				$email = htmlspecialchars($_POST['email']);
+				$msg = "Para confirmar a sua assinatura na newsletter, clique neste <a href='".BASE_URL."home/newsletter/".$email."/".$chave."'>Link</a>";
+				$data = date("Y/m/d");
+
+				$to = $email;
+				$subject = "Confirme seu e-mail (ITVidas)";
+				$body = "Nome: Suporte ITVidas - E-mail: ".$email." - Mensagem: ".$msg;
+				$header = "From: suporte@itvmanaus.org"."\r\n"."Reply-to: suporte@itvmanaus.org"."\r\n"."X-Mailer: PHP/".phpversion()."\r\n"."Content-type: text/html; charset=iso-8859-1";
+
+				mail($to, $subject, $body, $header);
+
 				$msg = "* Por favor, verifique seu e-mail para concluir o cadastro!";
 				$dados['resultado'] = $msg;
 			}
