@@ -14,4 +14,13 @@ class sobreController extends controller {
 
 	}
 
+	public function historia(){
+
+		# code ...
+		$dados = array();
+
+		$this->loadView('historia', $dados);
+
+	}
+
 }

@@ -887,6 +887,144 @@ body {
 	color: white;
 }
 
+/* <!-- Topo descrição absoltue --> */
+.topo-descricao--absolute {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	overflow: hidden;
+}
+.topo-descricao--absolute img {
+	filter: brightness(75%);
+	height: 300px;
+	width: 100%;
+}
+.textoEdit {
+	position: absolute;
+}
+.topo-descricao--absolute h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	color: white;
+	margin-bottom: 10px;
+}
+.topo-descricao--absolute p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	color: white;
+}
+
+/* <!-- Nossa história --> */
+.nossa--historia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 50px;
+}
+.nossa-historia--topo {
+	margin-bottom: 50px;
+}
+.nossa-historia--topo h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 38px;
+	color: #393454;
+}
+.nossa-historia--descricao {
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.nossa-historia--descricao-texto {
+	width: 46%;
+}
+.nossa-historia--descricao-divisor {
+	height: 350px;
+	width: 1px;
+	background-color: #ccc;
+}
+.nossa-historia--descricao-texto p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 38px;
+}
+.nossa-historia--borda {
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	margin-top: 50px;
+}
+
+/* <!-- Dúvidas história --> */
+.duvidas--historia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.duvidas--historia h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 38px;
+	color: #393454;
+	margin-bottom: 10px;
+}
+.duvidas--historia p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 38px;
+}
+.duvidas--historia a {
+	width: 260px;
+	height: 55px;
+	background-color: transparent;
+	border: 2px solid #393454;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 25px;
+	background-color: #393454;
+	transition: all ease .2s;
+}
+.duvidas--historia a:hover {
+	background-color: transparent;
+	color: #393454;
+}
+
+
 
 /*
 * Layout responsivo

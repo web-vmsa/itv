@@ -10,14 +10,14 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?php echo BASE_URL; ?>sobre">
+	<meta property="og:url" content="<?php echo BASE_URL; ?>sobre/historia">
 	<meta property="og:title" content="ITV — Nossa história">
 	<meta property="og:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="og:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="<?php echo BASE_URL; ?>sobre">
+	<meta property="twitter:url" content="<?php echo BASE_URL; ?>sobre/historia">
 	<meta property="twitter:title" content="ITV — Nossa história">
 	<meta property="twitter:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
@@ -159,44 +159,37 @@
 	</aside>
 
 	<!-- Topo descritivo da página -->
-	<div class="topo--descricao" id="topo">
-		<h2>QUEM SOMOS</h2>
-		<p>Navegue pelos cards abaixo para descobrir um pouco mais sobre nossas filosofias, história e diretoria.</p>
+	<div class="topo-descricao--absolute" id="topo">
+		<img src="<?php echo BASE_URL; ?>assets/imgs/topo-image--historia.png">
+		<div class="textoEdit">
+			<h2>NOSSA HISTÓRIA</h2>
+			<p>Leia abaixo a incrível história do Instituto Transformando Vidas, que começou em 2010.</p>
+		</div>
 	</div>
 
-	<!-- Cards -->
-	<nav class="cards--sobre">
-		<a href="<?php echo BASE_URL; ?>sobre/valores">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--quemSomos.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>QUEM SOMOS</h3>
-					<p>CONHEÇA UM POUCO DAS NOSSAS FILOSOFIAS.</p>
-				</div>
+	<!-- Nossa história -->
+	<div class="nossa--historia">
+		<div class="nossa-historia--topo">
+			<h2>COMO TUDO COMEÇOU</h2>
+		</div>
+		<div class="nossa-historia--descricao">
+			<div class="nossa-historia--descricao-texto">
+				<p>O Instituto Transformando Vidas é a realização de um sonho que teve início em Setembro de 2010, quando começamos a trabalhar com um grupo de crianças e adolescentes, debaixo de algumas mangueiras, na comunidade do Buracão no Bairro da Colônia Antônio Aleixo, Manaus/AM. O SENHOR, Nosso Deus, tornou possível este sonho e hoje contamos com o Complexo Eduardo Effa, um prédio com cerca de 1.500m2 (Um mil e quinhentos metros quadrados), com secretaria, 4 (Quatro) salas de aulas, biblioteca, consultório odontológico, laboratório de informática, cozinha, refeitório, quadra esportiva e em andamento a edificação de uma panificadora.</p>
 			</div>
-		</a>
-		<a href="<?php echo BASE_URL; ?>sobre/historia">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--nossaHistoria.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>NOSSA HISTÓRIA</h3>
-					<p>VEJA AS RAÍZES DO INSTUTO, LEIA A NOSSA HISTÓRIA.</p>
-				</div>
+			<div class="nossa-historia--descricao-divisor"></div>
+			<div class="nossa-historia--descricao-texto">
+				<p>Nossa proposta é levar uma transformação de vidas, através do ensino de princípios e práticas, para aquelas crianças e adolescentes, oferecendo-lhes apoio pedagógico com alfabetização, língua portuguesa e matemática, cursos de informática, práticas esportivas e rodas de conversas com palestras educacionais e motivacionais. O ITV tem atendido desde 2013, a cada ano, mais de 140 (Cento e quarenta) crianças e adolescents na faixa etária de de 6 (Seis) a 16 (Dezesseis) anos, no contra turno escolar, além disso, oferecemos aos nossos beneficiários o café da manhã, almoço e lanche.</p>
 			</div>
-		</a>
-		<a href="<?php echo BASE_URL; ?>sobre/diretoria">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--diretoria.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>DIRETORIA</h3>
-					<p>CONHEÇA NOSSA GESTÃO E EQUIPE DO INSTITUTO.</p>
-				</div>
-			</div>
-		</a>
-	</nav>
+		</div>
+		<div class="nossa-historia--borda"></div>
+	</div>
+
+	<!-- Dúvidas -->
+	<div class="duvidas--historia">
+		<h2>DÚVIDAS?</h2>
+		<p>Deixe sua mensagem que entraremos em contato :)</p>
+		<a href="https://api.whatsapp.com/send?phone=92981360011">CONTATO</a>
+	</div>
 
 	<!-- Rodapé -->
 	<footer class="rodape">
