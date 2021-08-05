@@ -843,6 +843,7 @@ body {
 	margin-bottom: 70px;
 	border-bottom: 2px solid transparent;
 	transition:all ease .2s;
+	text-align: center;
 }
 .card--sobre img {
 	width: 520px;
@@ -1022,6 +1023,62 @@ body {
 .duvidas--historia a:hover {
 	background-color: transparent;
 	color: #393454;
+}
+
+/* <!-- Valores corpo --> */
+.valores--corpo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 120px;
+	background-color: #393454;
+}
+.valores--item {
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 120px;
+}
+.valores--item h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 58px;
+	color: #DCDCDC;
+	margin-bottom: 10px;
+}
+.valores--item h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color: #00BFFF;
+	margin-bottom: 36px;
+}
+.valores--item p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	color: #DCDCDC;
+	margin-bottom: 20px;
+}
+.valores--item h4 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #00BFFF;
 }
 
 

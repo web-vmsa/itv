@@ -23,4 +23,13 @@ class sobreController extends controller {
 
 	}
 
+	public function valores(){
+
+		# code ...
+		$dados = array();
+
+		$this->loadView('valores', $dados);
+
+	}
+
 }

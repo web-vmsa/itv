@@ -2,23 +2,23 @@
 <html lang="pt-br">
 <head>
 	<!-- Primary Meta Tags -->
-	<title>ITV — Nossa história</title>
+	<title>ITV — Quem somos</title>
 	<meta charset="utf-8">
-	<meta name="title" content="ITV — Nossa história">
+	<meta name="title" content="ITV — Quem somos">
 	<meta name="description" content="O ITV é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?php echo BASE_URL; ?>sobre">
+	<meta property="og:url" content="<?php echo BASE_URL; ?>sobre/valores">
 	<meta property="og:title" content="ITV — Nossa história">
 	<meta property="og:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="og:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="<?php echo BASE_URL; ?>sobre">
-	<meta property="twitter:title" content="ITV — Nossa história">
+	<meta property="twitter:url" content="<?php echo BASE_URL; ?>sobre/valores">
+	<meta property="twitter:title" content="ITV — Quem somos">
 	<meta property="twitter:description" content="O Instituto Transformando Vidas é uma instituição localizada em Manaus que visa ajudar crianças carentes e influenciar uma visão mais solidária nas pessoas.">
 	<meta property="twitter:image" content="<?php echo BASE_URL; ?>assets/imgs/logotipo-itv.png">
 
@@ -158,45 +158,28 @@
 		</div>
 	</aside>
 
-	<!-- Topo descritivo da página -->
-	<div class="topo--descricao" id="topo">
-		<h2>QUEM SOMOS</h2>
-		<p>Navegue pelos cards abaixo para descobrir um pouco mais sobre nossas filosofias, história e diretoria.</p>
+	<!-- Corpo -->
+	<div class="valores--corpo" id="topo">
+		<div class="valores--item">
+			<h2>NOSSA MISSÃO</h2>
+			<h3>A SER CUMPRIDA</h3>
+			<p>“Possibilitar o desenvolvimento e aprendizagem das crianças e dos adolescentes, bem como o bem-estar dos mesmos, envolvendo-os de forma eficaz com a família, com a comunidade e oportunizando seu crescimento como indivíduo na vida e na sociedade.”</p>
+			<h4>PAULO ARRUDA - PRESIDENTE</h4>
+		</div>
+		<div class="valores--item">
+			<h2>NOSSOS VALORES</h2>
+			<h3>MATEUS, 4:23 e 9:35</h3>
+			<p>“A Bíblia nos ensina que só podemos dizer que amamos a Deus se amarmos o nosso próximo como a nós mesmos. Fazer a diferença e levar dignidade ao ser humano é o compromisso de toda a equipe do ITV, por isso junte-se a nós e venha fazer parte desta transformação.”</p>
+			<h4>PAULO ARRUDA - PRESIDENTE</h4>
+		</div>
+		<div class="valores--item">
+			<h2>NOSSOS OBJETIVOS</h2>
+			<h3>A SEREM CUMPRIDOS</h3>
+			<p>“O ITV busca a intervenção social na comunidade do Buracão, na Colônia Antônio Aleixo, com a intensificação de práticas socioeducativas com crianças e adolescentes de 6 (Seis) a 16 (Dezesseis) anos de idade e ainda o desenvolvimento de ações comprometidas com a comunidade, tais como educação e saúde.”</p>
+			<h4>PAULO ARRUDA - PRESIDENTE</h4>
+		</div>
 	</div>
-
-	<!-- Cards -->
-	<nav class="cards--sobre">
-		<a href="<?php echo BASE_URL; ?>sobre/valores">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--quemSomos.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>QUEM SOMOS</h3>
-					<p>CONHEÇA UM POUCO DAS NOSSAS FILOSOFIAS.</p>
-				</div>
-			</div>
-		</a>
-		<a href="<?php echo BASE_URL; ?>sobre/historia">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--nossaHistoria.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>NOSSA HISTÓRIA</h3>
-					<p>VEJA AS RAÍZES DO INSTITUTO, LEIA A NOSSA HISTÓRIA.</p>
-				</div>
-			</div>
-		</a>
-		<a href="<?php echo BASE_URL; ?>sobre/diretoria">
-			<div class="card--sobre">
-				<div class="card-sobre--fundo"></div>
-				<img src="<?php echo BASE_URL; ?>assets/imgs/card-sobre--diretoria.png" alt="Imagem do card">
-				<div class="card-sobre--texto">
-					<h2>DIRETORIA</h3>
-					<p>CONHEÇA NOSSA GESTÃO E EQUIPE DO INSTITUTO.</p>
-				</div>
-			</div>
-		</a>
-	</nav>
+	
 
 	<!-- Rodapé -->
 	<footer class="rodape">
