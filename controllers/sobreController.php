@@ -32,4 +32,13 @@ class sobreController extends controller {
 
 	}
 
+	public function diretoria(){
+
+		# code ...
+		$dados = array();
+
+		$this->loadView('diretoria', $dados);
+
+	}
+
 }
