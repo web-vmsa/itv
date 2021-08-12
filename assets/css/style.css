@@ -1242,6 +1242,10 @@ body {
 		display: flex;
 		margin-right: 50px;
 	}
+	.topo--descricao {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 
 }
 
@@ -1455,6 +1459,10 @@ body {
 	.erro-botoes a {
 		margin-bottom: 20px;;
 	}
+	.topo--descricao {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 
 }
 
@@ -1609,6 +1617,31 @@ body {
 	}
 	.erro-botoes a {
 		margin-bottom: 20px;;
+	}
+	.topo--descricao {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.cards--sobre {
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-top: 50px;
+	}
+	.card--sobre {
+		width: 320px;
+		height: 390px;
+		margin-bottom: 50px;
+	}
+	.card-sobre--fundo {
+		width: 320px;
+		height: 390px;
+	}
+	.card--sobre img {
+		width: 320px;
+		height: 390px;
+	}
+	.card-sobre--texto {
+		width: 300px;
 	}
 
 }
@@ -1815,6 +1848,28 @@ body {
 	}
 	.erro-botoes a {
 		margin-bottom: 20px;;
+	}
+	.topo--descricao h2 {
+		font-size: 36px;
+	}
+	.topo--descricao p {
+		font-size: 22px;
+	}
+	.card--sobre {
+		width: 280px;
+		height: 300px;
+		margin-bottom: 50px;
+	}
+	.card-sobre--fundo {
+		width: 280px;
+		height: 300px;
+	}
+	.card--sobre img {
+		width: 280px;
+		height: 300px;
+	}
+	.card-sobre--texto {
+		width: 260px;
 	}
 
 }

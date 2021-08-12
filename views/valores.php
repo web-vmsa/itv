@@ -101,9 +101,9 @@
 				<img data-submenu="quemSomos" src="<?php echo BASE_URL; ?>assets/imgs/iconmonstr-arrow-25">
 			</div>
 			<div class="menu-lateral--submenu quemSomos">
-				<a href=""><div class="menu-lateral--submenu-item"><p>Quem somos</p></div></a>
-				<a href=""><div class="menu-lateral--submenu-item"><p>Nossa história</p></div></a>
-				<a href=""><div class="menu-lateral--submenu-item"><p>Diretoria</p></div></a>
+				<a href="<?php echo BASE_URL; ?>sobre/valores"><div class="menu-lateral--submenu-item"><p>Quem somos</p></div></a>
+				<a href="<?php echo BASE_URL; ?>sobre/historia"><div class="menu-lateral--submenu-item"><p>Nossa história</p></div></a>
+				<a href="<?php echo BASE_URL; ?>sobre/diretoria"><div class="menu-lateral--submenu-item"><p>Diretoria</p></div></a>
 			</div>
 			
 			<div class="menu-lateral--menu-item">
@@ -186,9 +186,9 @@
 		<div class="rodape-top">
 			<div class="rodape-top--item">
 				<p>Nossa história</p>
-				<a href="">Quem somos</a>
-				<a href="">Nossa história</a>
-				<a href="">Diretoria</a>
+				<a href="<?php echo BASE_URL; ?>sobre/valores">Quem somos</a>
+				<a href="<?php echo BASE_URL; ?>sobre/historia">Nossa história</a>
+				<a href="<?php echo BASE_URL; ?>sobre/diretoria">Diretoria</a>
 			</div>
 			<div class="rodape-top--item">
 				<p>Eventos</p>
