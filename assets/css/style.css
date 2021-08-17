@@ -1246,6 +1246,18 @@ body {
 		padding-left: 100px;
 		padding-right: 100px;
 	}
+	.nossa-historia--descricao {
+		flex-direction: column;
+	}
+	.nossa-historia--descricao-texto {
+		width: 100%;
+	}
+	.nossa-historia--descricao-divisor {
+		width: 100%;
+		height: 1px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
 }
 
@@ -1334,6 +1346,13 @@ body {
 	.menu-rolagem--fixado .open-menu--mobile {
 		display: flex;
 		margin-right: 50px;
+	}
+	.nossa--historia {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.nossa-historia--topo {
+		margin-bottom: 35px;
 	}
 
 }
@@ -1462,6 +1481,31 @@ body {
 	.topo--descricao {
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+	.valores--item {
+		width: 400px;
+	}
+	.valores--item h3 {
+		font-size: 28px;
+	}
+	.valores--item h2 {
+		font-size: 42px;
+	}
+	.valores--corpo {
+		padding-top: 90px;
+	}
+	.nossa-historia--descricao-divisor {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.topo-descricao--absolute img {
+		height: 255px;
+	}
+	.textoEdit {
+		width: 490px;
+	}
+	.topo-descricao--absolute h2 {
+		font-size: 37px;
 	}
 
 }
@@ -1642,6 +1686,30 @@ body {
 	}
 	.card-sobre--texto {
 		width: 300px;
+	}
+	.textoEdit {
+		width: 350px;
+	}
+	.topo-descricao--absolute h2 {
+		font-size: 34px;
+	}
+	.topo-descricao--absolute p {
+		font-size: 21px;
+	}
+	.topo-descricao--absolute img {
+		height: 233px;
+	}
+	.nossa-historia--topo h2 {
+		font-size: 32px;
+	}
+	.duvidas--historia h2 {
+		font-size: 32px;
+	}
+	.duvidas--historia {
+		text-align: center;
+	}
+	.nossa-historia--descricao {
+		text-align: center;
 	}
 
 }
@@ -1871,6 +1939,42 @@ body {
 	.card-sobre--texto {
 		width: 260px;
 	}
+	.valores--item {
+		width: 320px;
+	}
+	.valores--item h3 {
+		font-size: 22px;
+	}
+	.valores--item p {
+		font-size: 26px;
+	}
+	.valores--item h2 {
+		font-size: 34px;
+	}
+	.textoEdit {
+		width: 310px;
+	}
+	.topo-descricao--absolute img {
+		height: 210px;
+	}
+	.nossa--historia {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 40px;
+	}
+	.nossa-historia--topo {
+		margin-bottom: 25px;
+	}
+	.nossa-historia--topo h2 {
+		font-size: 28px;
+	}
+	.duvidas--historia h2 {
+		font-size: 28px;
+	}
+	.duvidas--historia {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 }
 
@@ -2082,6 +2186,9 @@ body {
 	}
 	.erro-botoes a {
 		margin-bottom: 20px;;
+	}
+	.valores--item {
+		width: 300px;
 	}
 
 }
